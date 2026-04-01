@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"Z:/notification_no_facade/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

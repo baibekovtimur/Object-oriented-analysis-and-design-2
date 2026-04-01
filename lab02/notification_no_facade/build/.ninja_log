@@ -1,0 +1,14 @@
+# ninja log v7
+70	4684	7967161258509957	notification_no_facade_autogen/timestamp	dc3d1793aca3d37b
+70	4684	7967161258509957	notification_no_facade_autogen/mocs_compilation.cpp	dc3d1793aca3d37b
+70	4684	7967161258509957	Z:/notification_no_facade/build/notification_no_facade_autogen/timestamp	dc3d1793aca3d37b
+70	4684	7967161258509957	Z:/notification_no_facade/build/notification_no_facade_autogen/mocs_compilation.cpp	dc3d1793aca3d37b
+4824	7208	7967161263904020	CMakeFiles/notification_no_facade.dir/src/email_service.cpp.obj	d4cee93c7d5cc077
+7248	9166	7967161287918935	CMakeFiles/notification_no_facade.dir/src/sms_service.cpp.obj	4e6dc2b11244bb30
+9177	11121	7967161307288622	CMakeFiles/notification_no_facade.dir/src/push_service.cpp.obj	1f31b36826af8cb
+4726	16101	7967161262723599	CMakeFiles/notification_no_facade.dir/notification_no_facade_autogen/mocs_compilation.cpp.obj	25c638f8d46c4b29
+4744	17107	7967161262915893	CMakeFiles/notification_no_facade.dir/main.cpp.obj	4139c05ed253ecc8
+4762	17492	7967161263582831	CMakeFiles/notification_no_facade.dir/mainwindow.cpp.obj	6c2de300e4a61c8b
+113	6859	7967161453911116	CMakeFiles/notification_no_facade.dir/src/notification_logger.cpp.obj	e08476775adb5051
+102	8894	7967161453794987	CMakeFiles/notification_no_facade.dir/src/validator.cpp.obj	636ee119183113c5
+8900	9923	7967161541776008	notification_no_facade.exe	547a7fd02816c40c

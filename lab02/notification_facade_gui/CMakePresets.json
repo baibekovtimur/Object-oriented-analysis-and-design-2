@@ -1,0 +1,43 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "ucrt64-ninja",
+      "displayName": "MSYS2 UCRT64 (Ninja)",
+      "description": "Uses MSYS2 UCRT64 GCC and Qt6 Widgets.",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "C:/msys64/ucrt64",
+        "CMAKE_C_COMPILER": "C:/msys64/ucrt64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe"
+      },
+      "environment": {
+        "PATH": "C:/msys64/ucrt64/bin;C:/msys64/usr/bin;$penv{PATH}"
+      }
+    },
+    {
+      "name": "ucrt64-ninja-release",
+      "inherits": "ucrt64-ninja",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-ucrt64",
+      "configurePreset": "ucrt64-ninja"
+    },
+    {
+      "name": "build-ucrt64-release",
+      "configurePreset": "ucrt64-ninja-release"
+    }
+  ]
+}
